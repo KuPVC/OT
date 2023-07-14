@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ot_mgmt *.css
+recursive-include ot_mgmt *.csv
+recursive-include ot_mgmt *.html
+recursive-include ot_mgmt *.ico
+recursive-include ot_mgmt *.js
+recursive-include ot_mgmt *.json
+recursive-include ot_mgmt *.md
+recursive-include ot_mgmt *.png
+recursive-include ot_mgmt *.py
+recursive-include ot_mgmt *.svg
+recursive-include ot_mgmt *.txt
+recursive-exclude ot_mgmt *.pyc
